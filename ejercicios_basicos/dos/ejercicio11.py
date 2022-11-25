@@ -1,0 +1,7 @@
+print("Introduce el nombre del producto: ", end="")
+nombre = input()
+print("Introduce el número de unidades: ", end="")
+unidades = int(input())
+print("Introduce el precio unitario: ", end="")
+precio = float(input())
+print("{producto}: {precio:6.2f}€ x {unidades:3d} = {total:8.2f}€".format(producto = nombre, precio = precio, unidades = unidades, total = unidades * precio))
